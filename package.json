@@ -29,7 +29,7 @@
     "react": "^16.10.2",
     "react-app-polyfill": "^1.0.4",
     "react-dom": "^16.10.2",
-    "react-sizeme": "^2.6.9",
+    "react-reveal": "^1.2.2",
     "react-stack-grid": "^0.7.1"
   }
 }

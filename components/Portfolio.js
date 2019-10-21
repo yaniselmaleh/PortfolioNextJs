@@ -2,24 +2,21 @@ import React, { Component } from "react";
 import StackGrid from "react-stack-grid";
 import '../sass/components/_reset.scss';
 
- 
 class Portfolio extends Component {
   render() {
     return (
         <section>
 
         <StackGrid
-        columnWidth={500}
-        gutterWidth={10}
-        gutterHeight={10}
-        appearDelay={300}
+        columnWidth={350}
+        gutterWidth={20}
+        gutterHeight={20}
         itemComponent="section"
-        monitorImagesLoaded={true}
       >
         <article key="key1">
-            <a href="https://linkedin.com/in/yaniselmaleh" title="linkedin yanis elmaleh" target="_blank" className="flex-rs1">
+            {/* <a href="https://linkedin.com/in/yaniselmaleh" title="linkedin yanis elmaleh" target="_blank" className="flex-rs1"> */}
                 <img src="http://yaniselmaleh.fr/img/baskerville.png" alt="yunt"/>
-            </a>
+            {/* </a> */}
         </article>
 
         <article key="key2">
@@ -79,11 +76,11 @@ class Portfolio extends Component {
         </article>
 
         <article key="key16">
-            <img src="http://yaniselmaleh.fr/img/baskerville.png" alt="Harrasment Analytic"/>
+            <img src="" alt="Harrasment Analytic"/>
         </article>
 
         <article key="key17">
-            <img src="http://yaniselmaleh.fr/img/baskerville.png" alt="Elveo"/>
+            <img src="" alt="Elveo"/>
         </article>
 
       </StackGrid>

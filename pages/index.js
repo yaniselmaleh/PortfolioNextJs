@@ -3,6 +3,9 @@ import '../sass/components/_font.scss'
 import '../sass/components/_home.scss'
 import '../sass/components/_grid.scss'
 import '../sass/components/_propos.scss'
+import '../sass/components/_portfolio.scss'
+
+import Portfolio from '../components/Portfolio'
 
 import 'react-app-polyfill/ie9';
 import 'react-app-polyfill/ie11';
@@ -14,6 +17,7 @@ const Index = () => (
       <section id="home">
         <div className="flex-center">
           <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
+          
           <p>Disponible</p>
 
           <div>
@@ -40,18 +44,52 @@ const Index = () => (
 
       <section id="propos">
         <div className="container">
-          <h2>À Propos, aujourd’hui étudiant passionné<br></br> mais également <span>Freelance</span>.</h2>
+          <h2>Plus qu'un métier, une <span>passion</span>.</h2>
           <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.</p>
 
+          <div className="flex under2">
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+            <div className="gutter2"></div>
+          </div>
+
           <section className="flex">
-            <article className="col-3">lorem</article>
-            <article className="col-3">lorem</article>
-            <article className="col-3">lorem</article>
-            <article className="col-3">lorem</article>
+            <article className="col-2">
+              <img src="/react.svg" alt="react"/>
+            </article>
+
+            <article className="col-2">
+              <img src="/symfony.svg" alt="symfony"/>
+            </article>
+
+            <article className="col-2">
+              <img src="/next-js.svg" alt="next-js"/>
+            </article>
+
+            <article className="col-2">
+              <img src="/firebase.svg" alt="firebase"/>
+            </article>
+
+            <article className="col-2">
+              <img src="/wordpress.svg" alt="wordpress"/>
+            </article>
+
+            <article className="col-2">
+              <img src="/prestashop.svg" alt="prestashop"/>
+            </article>
+
           </section>
         </div>
       </section>
 
+      <section id="portfolio">
+          <Portfolio/>
+      </section>
       
 
     </section>

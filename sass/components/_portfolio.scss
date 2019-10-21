@@ -1,0 +1,14 @@
+@import "../helpers/_variables.scss";
+
+
+#portfolio{
+    height: 350vh;
+    padding-top: $mt;
+    padding-bottom: $mt / 2;
+    position: relative;
+    z-index: 0;
+    background-color: $black;
+    border-left: 10px solid $red;
+    border-right: 10px solid $red;
+    border-bottom: 10px solid $red;
+}
