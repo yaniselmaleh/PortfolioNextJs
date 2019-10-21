@@ -1,0 +1,64 @@
+@import "../helpers/_variables.scss";
+
+.flex-center{
+	z-index: 2;
+	position               : relative;
+	display                : -webkit-box;
+    display                : -moz-box;
+    display                : -ms-flexbox;
+    display                : -webkit-flex;
+	display                : flex;
+    flex-direction         : column;  
+    -webkit-box-pack       : center;
+	-moz-box-pack          : center;
+	-ms-flex-pack          : center;
+	-webkit-justify-content: center;
+	justify-content        : center;
+    -webkit-box-align      : center;
+	-moz-box-align         : center;
+	-ms-flex-align         : center;
+	-webkit-align-items    : center;
+	align-items            : center;     
+	height: 95vh;
+}
+
+$i        : 1;
+$nombreCol: 12;
+
+@for $i from 1 through $nombreCol {
+	$width: percentage($i / $nombreCol);
+	.col-#{$i}{
+		width  : $width;
+	}
+}
+
+.container{
+	width  : 80%;
+	margin : auto;
+	display: block;
+}
+
+.flex{
+	display        : flex;
+	justify-content: space-between;
+	align-items    : flex-start;
+	flex-wrap      : wrap;
+}
+
+.under{
+	position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	z-index: -1;
+}
+
+.gutter{
+	// width: calc( (100%) / 12 );
+	width: .1%;
+	height: 100vh;
+	background-color: $gutter;
+}

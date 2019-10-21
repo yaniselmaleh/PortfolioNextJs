@@ -1,0 +1,33 @@
+@import "../helpers/_variables.scss";
+
+@font-face {
+    font-family: "Gotham-bold";
+    src: url("/static/fonts/Gotham-Bold.otf");
+}
+
+h1{
+    margin-top: 6vh;
+    font-size: $titre;
+    color: $white;
+    font-family: $font-titre;
+    text-align: center;
+    width: 100%;
+
+    span{
+        color: $red;
+    }
+}
+
+p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: $big-titre;
+    font-family: $font-titre;
+    color: $back;
+    z-index: -1;
+}
