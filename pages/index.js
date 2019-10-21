@@ -4,6 +4,11 @@ import '../sass/components/_home.scss'
 import '../sass/components/_grid.scss'
 import '../sass/components/_propos.scss'
 
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
+import 'core-js/stable'
+
 const Index = () => (
     <section>
       <section id="home">
