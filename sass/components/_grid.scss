@@ -19,16 +19,21 @@
 	-ms-flex-align         : center;
 	-webkit-align-items    : center;
 	align-items            : center;     
-	height: 95vh;
+	height: 100vh;
 }
 
 $i        : 1;
 $nombreCol: 12;
+$margin : 2%;
 
 @for $i from 1 through $nombreCol {
 	$width: percentage($i / $nombreCol);
 	.col-#{$i}{
-		width  : $width;
+		width  : $width - $margin;
+	}
+
+	.col-3:first-child{
+		margin-left: 0%!important;
 	}
 }
 
@@ -45,6 +50,26 @@ $nombreCol: 12;
 	flex-wrap      : wrap;
 }
 
+// .flex-rs{
+// 	@extend .flex;
+// 	position: absolute;
+// 	right: 5%;
+// 	bottom: 10%;
+// 	width: 4%;
+// }
+
+.flex-rs1{
+	position: absolute;
+	right: 8rem;
+	bottom: 10%;
+}
+
+.flex-rs2{
+	position: absolute;
+	right: 5rem;
+	bottom: 10%;
+}
+
 .under{
 	position: absolute;
     left: 0;
@@ -59,6 +84,12 @@ $nombreCol: 12;
 .gutter{
 	// width: calc( (100%) / 12 );
 	width: .1%;
-	height: 100vh;
+	height: 95vh;
 	background-color: $gutter;
+}
+
+.gutter2{
+	width: .1%;
+	height: 100vh;
+	background-color: $gutter2;
 }

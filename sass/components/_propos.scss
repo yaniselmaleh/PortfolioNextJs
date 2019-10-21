@@ -1,0 +1,39 @@
+@import "../helpers/_variables.scss";
+
+#propos{
+    height: 100vh;
+    background-color: $white;
+
+    h2{
+        font-size: $titre;
+        padding-top: $mt;
+        color: $black;
+        font-family: $font-titre;
+        text-align: left;
+        width: 100%;
+    
+        span{
+            color: $red;
+        }
+    }
+
+    p{
+        font-size: $sous-titre;  
+        padding-top: $mt / 2;
+
+        color: $black;
+        font-family: $labeur;
+        text-align: left;
+        width: 50%;      
+    }
+
+    section{
+        padding-top: $mt;
+
+        article{
+            height: 20vh;
+            background-color: red;
+            margin: 1%;
+        }
+    }
+}

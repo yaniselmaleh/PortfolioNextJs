@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -112,6 +112,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_home_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_components_home_scss__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sass/components/_grid.scss */ "./sass/components/_grid.scss");
 /* harmony import */ var _sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _sass_components_propos_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sass/components/_propos.scss */ "./sass/components/_propos.scss");
+/* harmony import */ var _sass_components_propos_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_propos_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -120,116 +122,224 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Index = () => __jsx("section", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("section", {
   id: "home",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 9
   },
   __self: undefined
 }, __jsx("div", {
   className: "flex-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 11
   },
   __self: undefined
 }, "Yanis Elmaleh D\xE9veloppeur ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 11
   },
   __self: undefined
 }, "Freelance"), "."), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 12
   },
   __self: undefined
 }, "Disponible"), __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "https://linkedin.com/in/yaniselmaleh",
+  title: "linkedin yanis elmaleh",
+  target: "_blank",
+  className: "flex-rs1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "/linkedin.svg",
+  alt: "linkedin yanis elmaleh",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+})), __jsx("a", {
+  href: "https://github.com/yaniselmaleh",
+  title: "github yanis elmaleh",
+  target: "_blank",
+  className: "flex-rs2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "/github.svg",
+  alt: "github yanis elmaleh",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}))), __jsx("div", {
   className: "flex under",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 24
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 25
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 26
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 27
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 28
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 29
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 30
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 31
   },
   __self: undefined
-}), __jsx("div", {
-  className: "gutter",
+})))), __jsx("section", {
+  id: "propos",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 36
   },
   __self: undefined
-}), __jsx("div", {
-  className: "gutter",
+}, __jsx("div", {
+  className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 37
   },
   __self: undefined
-}))));
+}, __jsx("h2", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, "\xC0 Propos, aujourd\u2019hui \xE9tudiant passionn\xE9", __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}), " mais \xE9galement ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, "Freelance"), "."), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, "Je projette de continuer dans le domaine du nume\u0301rique et d\u2019approfondir mes connaissances techniques tout en restant connecte\u0301 avec l\u2019e\u0301volution et les tendances technologiques."), __jsx("section", {
+  className: "flex",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, __jsx("article", {
+  className: "col-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42
+  },
+  __self: undefined
+}, "lorem"), __jsx("article", {
+  className: "col-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, "lorem"), __jsx("article", {
+  className: "col-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, "lorem"), __jsx("article", {
+  className: "col-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, "lorem")))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index); // ---
 // This is the Link API
@@ -311,6 +421,17 @@ const Index = () => __jsx("section", {
 
 /***/ }),
 
+/***/ "./sass/components/_propos.scss":
+/*!**************************************!*\
+  !*** ./sass/components/_propos.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./sass/components/_reset.scss":
 /*!*************************************!*\
   !*** ./sass/components/_reset.scss ***!
@@ -322,7 +443,7 @@ const Index = () => __jsx("section", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

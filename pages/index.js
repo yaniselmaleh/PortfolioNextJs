@@ -2,27 +2,52 @@ import '../sass/components/_reset.scss'
 import '../sass/components/_font.scss'
 import '../sass/components/_home.scss'
 import '../sass/components/_grid.scss'
+import '../sass/components/_propos.scss'
 
 const Index = () => (
-    <section id="home">
-      <div className="flex-center">
-        <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
-        <p>Disponible</p>
+    <section>
+      <section id="home">
+        <div className="flex-center">
+          <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
+          <p>Disponible</p>
 
-        <div className="flex under">
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
-          <div className="gutter"></div>
+          <div>
+            <a href="https://linkedin.com/in/yaniselmaleh" title="linkedin yanis elmaleh" target="_blank" className="flex-rs1">
+              <img src="/linkedin.svg" alt="linkedin yanis elmaleh"/>
+            </a>
+
+            <a href="https://github.com/yaniselmaleh" title="github yanis elmaleh" target="_blank" className="flex-rs2">
+              <img src="/github.svg" alt="github yanis elmaleh"/>
+            </a>
+          </div>
+          <div className="flex under">
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+            <div className="gutter"></div>
+          </div>
         </div>
-        
-      </div>
+      </section>
+
+      <section id="propos">
+        <div className="container">
+          <h2>À Propos, aujourd’hui étudiant passionné<br></br> mais également <span>Freelance</span>.</h2>
+          <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.</p>
+
+          <section className="flex">
+            <article className="col-3">lorem</article>
+            <article className="col-3">lorem</article>
+            <article className="col-3">lorem</article>
+            <article className="col-3">lorem</article>
+          </section>
+        </div>
+      </section>
+
+      
 
     </section>
   );
