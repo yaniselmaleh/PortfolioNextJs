@@ -419,15 +419,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_propos_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_propos_scss__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sass/components/_portfolio.scss */ "./sass/components/_portfolio.scss");
 /* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Pulse */ "react-reveal/Pulse");
+/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_reveal_Tada__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-reveal/Tada */ "react-reveal/Tada");
+/* harmony import */ var react_reveal_Tada__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Tada__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-reveal/Bounce */ "react-reveal/Bounce");
+/* harmony import */ var react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_15__);
 var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -443,48 +451,66 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+
+
+
 const Index = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("section", {
   id: "home",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx("div", {
   className: "flex-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  duration: 2000,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 24
   },
   __self: undefined
 }, "Yanis Elmaleh D\xE9veloppeur ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 24
   },
   __self: undefined
-}, "Freelance"), "."), __jsx("p", {
+}, "Freelance"), ".")), __jsx(react_reveal_Tada__WEBPACK_IMPORTED_MODULE_9___default.a, {
+  delay: 3000,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 27
   },
   __self: undefined
-}, "Disponible"), __jsx("div", {
+}, __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Disponible")), __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
   },
   __self: undefined
 }, __jsx("a", {
@@ -494,7 +520,7 @@ const Index = () => __jsx("section", {
   className: "flex-rs1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 32
   },
   __self: undefined
 }, __jsx("img", {
@@ -502,7 +528,7 @@ const Index = () => __jsx("section", {
   alt: "linkedin yanis elmaleh",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 33
   },
   __self: undefined
 })), __jsx("a", {
@@ -512,7 +538,7 @@ const Index = () => __jsx("section", {
   className: "flex-rs2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 36
   },
   __self: undefined
 }, __jsx("img", {
@@ -520,179 +546,207 @@ const Index = () => __jsx("section", {
   alt: "github yanis elmaleh",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 37
   },
   __self: undefined
 }))), __jsx("div", {
   className: "flex under",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 40
   },
   __self: undefined
 }, __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 41
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 42
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 43
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 44
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 45
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 46
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 47
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40
+    lineNumber: 48
   },
   __self: undefined
 })))), __jsx("section", {
   id: "propos",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45
+    lineNumber: 53
   },
   __self: undefined
 }, __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46
+    lineNumber: 54
+  },
+  __self: undefined
+}, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_8___default.a, {
+  left: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 56
   },
   __self: undefined
 }, "Plus qu'un m\xE9tier, une ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 56
   },
   __self: undefined
-}, "passion"), "."), __jsx("p", {
+}, "passion"), ".")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48
+    lineNumber: 59
   },
   __self: undefined
-}, "Je projette de continuer dans le domaine du nume\u0301rique et d\u2019approfondir mes connaissances techniques tout en restant connecte\u0301 avec l\u2019e\u0301volution et les tendances technologiques."), __jsx("div", {
+}, "Je projette de continuer dans le domaine du nume\u0301rique et d\u2019approfondir mes connaissances techniques tout en restant connecte\u0301 avec l\u2019e\u0301volution et les tendances technologiques.", __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 60
+  },
+  __self: undefined
+}), __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 60
+  },
+  __self: undefined
+}), "Si vous souhaitez en savoir plus, n\u2019h\xE9sitez pas \xE0 me joindre sur Linkedin ou via mon adresse email."), __jsx("div", {
   className: "flex under2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
+    lineNumber: 64
   },
   __self: undefined
 }, __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51
+    lineNumber: 65
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52
+    lineNumber: 66
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 53
+    lineNumber: 67
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 54
+    lineNumber: 68
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55
+    lineNumber: 69
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 56
+    lineNumber: 70
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 57
+    lineNumber: 71
   },
   __self: undefined
 }), __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 58
+    lineNumber: 72
   },
   __self: undefined
 })), __jsx("section", {
   className: "flex",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 61
+    lineNumber: 75
+  },
+  __self: undefined
+}, __jsx(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  left: true,
+  cascade: true,
+  delay: 500,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 76
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 62
+    lineNumber: 77
   },
   __self: undefined
 }, __jsx("img", {
@@ -700,14 +754,23 @@ const Index = () => __jsx("section", {
   alt: "react",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63
+    lineNumber: 78
   },
   __self: undefined
-})), __jsx("article", {
+}))), __jsx(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  left: true,
+  cascade: true,
+  delay: 1000,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 66
+    lineNumber: 83
   },
   __self: undefined
 }, __jsx("img", {
@@ -715,14 +778,23 @@ const Index = () => __jsx("section", {
   alt: "symfony",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 67
+    lineNumber: 84
   },
   __self: undefined
-})), __jsx("article", {
+}))), __jsx(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  left: true,
+  cascade: true,
+  delay: 1500,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 88
+  },
+  __self: undefined
+}, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 70
+    lineNumber: 89
   },
   __self: undefined
 }, __jsx("img", {
@@ -730,14 +802,23 @@ const Index = () => __jsx("section", {
   alt: "next-js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 71
+    lineNumber: 90
   },
   __self: undefined
-})), __jsx("article", {
+}))), __jsx(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  left: true,
+  cascade: true,
+  delay: 2000,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 94
+  },
+  __self: undefined
+}, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 74
+    lineNumber: 95
   },
   __self: undefined
 }, __jsx("img", {
@@ -745,14 +826,23 @@ const Index = () => __jsx("section", {
   alt: "firebase",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 75
+    lineNumber: 96
   },
   __self: undefined
-})), __jsx("article", {
+}))), __jsx(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  left: true,
+  cascade: true,
+  delay: 2500,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 100
+  },
+  __self: undefined
+}, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 78
+    lineNumber: 101
   },
   __self: undefined
 }, __jsx("img", {
@@ -760,14 +850,23 @@ const Index = () => __jsx("section", {
   alt: "wordpress",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 79
+    lineNumber: 102
   },
   __self: undefined
-})), __jsx("article", {
+}))), __jsx(react_reveal_Bounce__WEBPACK_IMPORTED_MODULE_10___default.a, {
+  left: true,
+  cascade: true,
+  delay: 3000,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 106
+  },
+  __self: undefined
+}, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 82
+    lineNumber: 107
   },
   __self: undefined
 }, __jsx("img", {
@@ -775,23 +874,10 @@ const Index = () => __jsx("section", {
   alt: "prestashop",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 83
+    lineNumber: 108
   },
   __self: undefined
-}))))), __jsx("section", {
-  id: "portfolio",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 90
-  },
-  __self: undefined
-}, __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_7__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 91
-  },
-  __self: undefined
-})));
+})))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index); // ---
 // This is the Link API
@@ -970,6 +1056,50 @@ module.exports = require("react-app-polyfill/ie9");
 /***/ (function(module, exports) {
 
 module.exports = require("react-app-polyfill/stable");
+
+/***/ }),
+
+/***/ "react-reveal/Bounce":
+/*!**************************************!*\
+  !*** external "react-reveal/Bounce" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Bounce");
+
+/***/ }),
+
+/***/ "react-reveal/Fade":
+/*!************************************!*\
+  !*** external "react-reveal/Fade" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Fade");
+
+/***/ }),
+
+/***/ "react-reveal/Pulse":
+/*!*************************************!*\
+  !*** external "react-reveal/Pulse" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Pulse");
+
+/***/ }),
+
+/***/ "react-reveal/Tada":
+/*!************************************!*\
+  !*** external "react-reveal/Tada" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Tada");
 
 /***/ }),
 

@@ -4,6 +4,10 @@ import '../sass/components/_home.scss'
 import '../sass/components/_grid.scss'
 import '../sass/components/_propos.scss'
 import '../sass/components/_portfolio.scss'
+import Pulse from 'react-reveal/Pulse';
+import Fade from 'react-reveal/Fade';
+import Tada from 'react-reveal/Tada';
+import Bounce from 'react-reveal/Bounce';
 
 import Portfolio from '../components/Portfolio'
 
@@ -16,9 +20,13 @@ const Index = () => (
     <section>
       <section id="home">
         <div className="flex-center">
+        <Pulse duration={2000}>
           <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
+          </Pulse>
           
+          <Tada delay={3000}>
           <p>Disponible</p>
+          </Tada>
 
           <div>
             <a href="https://linkedin.com/in/yaniselmaleh" title="linkedin yanis elmaleh" target="_blank" className="flex-rs1">
@@ -44,8 +52,14 @@ const Index = () => (
 
       <section id="propos">
         <div className="container">
+          <Fade left>
           <h2>Plus qu'un métier, une <span>passion</span>.</h2>
-          <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.</p>
+
+          </Fade>
+          <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.
+            <br/><br/>
+            Si vous souhaitez en savoir plus, n’hésitez pas à me joindre sur Linkedin ou via mon adresse email. 
+          </p>
 
           <div className="flex under2">
             <div className="gutter2"></div>
@@ -59,37 +73,49 @@ const Index = () => (
           </div>
 
           <section className="flex">
+          <Bounce left cascade delay={500}>
             <article className="col-2">
               <img src="/react.svg" alt="react"/>
             </article>
+          </Bounce>
 
+          <Bounce left cascade delay={1000}>
             <article className="col-2">
               <img src="/symfony.svg" alt="symfony"/>
             </article>
+          </Bounce>
 
-            <article className="col-2">
-              <img src="/next-js.svg" alt="next-js"/>
-            </article>
+            <Bounce left cascade delay={1500}>
+              <article className="col-2">
+                <img src="/next-js.svg" alt="next-js"/>
+              </article>
+            </Bounce>
 
-            <article className="col-2">
-              <img src="/firebase.svg" alt="firebase"/>
-            </article>
+            <Bounce left cascade delay={2000}>
+              <article className="col-2">
+                <img src="/firebase.svg" alt="firebase"/>
+              </article>
+            </Bounce>
 
-            <article className="col-2">
-              <img src="/wordpress.svg" alt="wordpress"/>
-            </article>
+            <Bounce left cascade delay={2500}>
+              <article className="col-2">
+                <img src="/wordpress.svg" alt="wordpress"/>
+              </article>
+            </Bounce>
 
-            <article className="col-2">
-              <img src="/prestashop.svg" alt="prestashop"/>
-            </article>
-
+            <Bounce left cascade delay={3000}>
+              <article className="col-2">
+                <img src="/prestashop.svg" alt="prestashop"/>
+              </article>
+            </Bounce>
+            
           </section>
         </div>
       </section>
 
-      <section id="portfolio">
+      {/* <section id="portfolio">
           <Portfolio/>
-      </section>
+      </section> */}
       
 
     </section>

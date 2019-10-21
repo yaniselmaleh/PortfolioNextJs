@@ -73,7 +73,7 @@ Error.getInitialProps = function (_ref2) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!**************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2FUsers%2Fyaniselmaleh%2FDesktop%2FPortfolio%2FDeveloppement%2FPortfolioNextJs%2Fpages%2F_error.js ***!
   \**************************************************************************************************************************************************************************/
@@ -96,5 +96,5 @@ module.exports = dll_13346faca0e924a89b24;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

@@ -37,9 +37,7 @@ img {
 #home {
   height: 100vh;
   background-color: #23252A;
-  border-top: 10px solid #FF003A;
-  border-left: 10px solid #FF003A;
-  border-right: 10px solid #FF003A; }
+  border: 10px solid #FF003A; }
   #home h1 {
     margin-top: 7vh;
     font-size: 3vw;
@@ -204,7 +202,7 @@ img {
 
 .gutter2 {
   width: .1%;
-  height: 95vh;
+  height: 100vh;
   background-color: #F0F2F7;
   z-index: -3; }
 
@@ -213,11 +211,11 @@ img {
   z-index: 0;
   height: 100vh;
   background-color: #ffffff;
-  border-left: 10px solid #FF003A;
-  border-right: 10px solid #FF003A; }
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  border-right: 10px solid rgba(0, 0, 0, 0); }
   #propos h2 {
     font-size: 3vw;
-    padding-top: 10%;
+    padding-top: 15%;
     color: #23252A;
     font-family: "Gotham-bold";
     text-align: left;
@@ -227,13 +225,13 @@ img {
   #propos p {
     font-size: 1vw;
     padding-top: 6.66667%;
-    color: #23252A;
+    color: #575B66;
     font-family: "Montserrat", sans-serif;
     text-align: left;
-    width: 50%; }
+    width: 70%;
+    letter-spacing: 0.6px; }
   #propos section {
     z-index: 99;
-    padding: 3%;
     margin-top: 10%;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     border-radius: 5px;
@@ -243,6 +241,7 @@ img {
     -o-border-radius: 5px; }
     #propos section article {
       z-index: 99;
+      padding: 3%;
       background-color: #ffffff; }
       #propos section article img {
         z-index: 99;
@@ -250,6 +249,7 @@ img {
         display: block; }
 
 #portfolio {
+  height: 350vh;
   padding-top: 10%;
   padding-bottom: 5%;
   position: relative;
