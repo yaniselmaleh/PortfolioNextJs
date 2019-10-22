@@ -150,19 +150,24 @@
       "static/AQGXY5glfzCBTQB8MfnaS/pages/about.js": 5,
       "static/AQGXY5glfzCBTQB8MfnaS/pages/index.js": 6,
       "static/AQGXY5glfzCBTQB8MfnaS/pages/test.js": 7,
-      "static/runtime/main.js": 8
+      "static/runtime/main.js": 8,
+      "static/Q1vhZ4N_L9sb_BE_zgBTY/pages/_app.js": 9,
+      "static/Q1vhZ4N_L9sb_BE_zgBTY/pages/_error.js": 10,
+      "static/Q1vhZ4N_L9sb_BE_zgBTY/pages/about.js": 11,
+      "static/Q1vhZ4N_L9sb_BE_zgBTY/pages/index.js": 12,
+      "static/Q1vhZ4N_L9sb_BE_zgBTY/pages/test.js": 13
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
+      10,
+      11,
+      12,
+      13,
       2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+      8,
+      9
     ]
   }
 }
