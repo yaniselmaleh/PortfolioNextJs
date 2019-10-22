@@ -3,17 +3,17 @@ import '../sass/components/_font.scss'
 import '../sass/components/_home.scss'
 import '../sass/components/_grid.scss'
 import '../sass/components/_propos.scss'
+import '../sass/components/_mouse.scss'
 import '../sass/components/_portfolio.scss'
-import Pulse from 'react-reveal/Pulse';
-import Fade from 'react-reveal/Fade';
-import Tada from 'react-reveal/Tada';
-import Bounce from 'react-reveal/Bounce';
 
-import Portfolio from '../components/Portfolio'
+import Pulse from 'react-reveal/Pulse'
+import Fade from 'react-reveal/Fade'
+import Jump from 'react-reveal/Jump'
+// import {Spring} from 'react-spring/renderprops'
 
-import 'react-app-polyfill/ie9';
-import 'react-app-polyfill/ie11';
-import 'react-app-polyfill/stable';
+import 'react-app-polyfill/ie9'
+import 'react-app-polyfill/ie11'
+import 'react-app-polyfill/stable'
 import 'core-js/stable'
 
 const Index = () => (
@@ -24,9 +24,12 @@ const Index = () => (
           <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
           </Pulse>
           
-          <Tada delay={3000}>
           <p>Disponible</p>
-          </Tada>
+
+          <Jump duration={1000}>
+          <div class="mouse"></div>
+            {/* <span id="bar"></span> */}
+          </Jump>
 
           <div>
             <a href="https://linkedin.com/in/yaniselmaleh" title="linkedin yanis elmaleh" target="_blank" className="flex-rs1">
@@ -58,9 +61,13 @@ const Index = () => (
           </Fade>
           <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.
             <br/><br/>
-            Si vous souhaitez en savoir plus, n’hésitez pas à me joindre sur Linkedin ou via mon adresse email. 
+            Si vous souhaitez en savoir plus, n’hésitez pas à me joindre sur Linkedin. 
           </p>
 
+          
+
+          {/* <div id="test"></div> */}
+          
           <div className="flex under2">
             <div className="gutter2"></div>
             <div className="gutter2"></div>
@@ -73,41 +80,41 @@ const Index = () => (
           </div>
 
           <section className="flex">
-          <Bounce left cascade delay={500}>
+          <Fade left cascade>
             <article className="col-2">
               <img src="/react.svg" alt="react"/>
             </article>
-          </Bounce>
+          </Fade>
 
-          <Bounce left cascade delay={1000}>
+          <Fade left cascade delay={250}>
             <article className="col-2">
               <img src="/symfony.svg" alt="symfony"/>
             </article>
-          </Bounce>
+          </Fade>
 
-            <Bounce left cascade delay={1500}>
+            <Fade left cascade delay={500}>
               <article className="col-2">
                 <img src="/next-js.svg" alt="next-js"/>
               </article>
-            </Bounce>
+            </Fade>
 
-            <Bounce left cascade delay={2000}>
+            <Fade left cascade delay={750}>
               <article className="col-2">
                 <img src="/firebase.svg" alt="firebase"/>
               </article>
-            </Bounce>
+            </Fade>
 
-            <Bounce left cascade delay={2500}>
+            <Fade left cascade delay={1000}>
               <article className="col-2">
                 <img src="/wordpress.svg" alt="wordpress"/>
               </article>
-            </Bounce>
+            </Fade>
 
-            <Bounce left cascade delay={3000}>
+            <Fade left cascade delay={1250}>
               <article className="col-2">
                 <img src="/prestashop.svg" alt="prestashop"/>
               </article>
-            </Bounce>
+            </Fade>
             
           </section>
         </div>
