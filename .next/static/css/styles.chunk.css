@@ -214,72 +214,6 @@ img {
   width: 2px;
   bottom: 7%; }
 
-.supertest {
-  margin-top: 5vh; }
-  .supertest article {
-    padding: 3%;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px; }
-  .supertest .art1 {
-    background-color: red;
-    height: 40vh; }
-  .supertest .art2 {
-    background-color: blue;
-    height: 40vh;
-    margin-top: 4vh; }
-  .supertest .art3 {
-    background-color: pink;
-    height: 40vh; }
-  .supertest .art4 {
-    background-color: yellow;
-    height: 40vh;
-    margin-top: 4vh; }
-
-#propos {
-  position: relative;
-  z-index: 0;
-  height: 100vh;
-  background-color: #ffffff;
-  border-left: 10px solid rgba(0, 0, 0, 0);
-  border-right: 10px solid rgba(0, 0, 0, 0); }
-  #propos h2 {
-    font-size: 3vw;
-    padding-top: 15%;
-    color: #23252A;
-    font-family: "Gotham-bold";
-    text-align: left;
-    width: 100%; }
-    #propos h2 span {
-      color: #FF003A; }
-  #propos p {
-    font-size: 1vw;
-    padding-top: 6.66667%;
-    color: #575B66;
-    font-family: "Montserrat", sans-serif;
-    text-align: left;
-    width: 70%;
-    letter-spacing: 0.6px; }
-  #propos section {
-    z-index: 99;
-    margin-top: 10%;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px; }
-    #propos section article {
-      z-index: 99;
-      padding: 3%;
-      background-color: #ffffff; }
-      #propos section article img {
-        z-index: 99;
-        height: 10vh;
-        display: block; }
-
 .mouse {
   background: #FF003A linear-gradient(transparent 0%, transparent 50%, #FF003A 50%, #FF003A 100%);
   position: absolute;
@@ -412,6 +346,154 @@ img {
   border-left: 10px solid #FF003A;
   border-right: 10px solid #FF003A;
   border-bottom: 10px solid #FF003A; }
+
+#competences {
+  padding: 6.66667% 0%;
+  position: relative;
+  z-index: 0;
+  background-color: pink;
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  border-right: 10px solid rgba(0, 0, 0, 0); }
+  #competences h2 {
+    font-size: 3vw;
+    color: #23252A;
+    font-family: "Gotham-bold";
+    text-align: center; }
+  #competences p {
+    font-size: 0.8vw;
+    color: #8e9199;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.02px; }
+  #competences a {
+    font-family: "Gotham-bold";
+    font-size: 0.8vw;
+    padding: 2% 0%;
+    display: block;
+    box-shadow: 0 3px 6px 0 #FF003A;
+    background-color: #FF003A;
+    color: #ffffff;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+  #competences section {
+    z-index: 99;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+    #competences section article {
+      z-index: 99;
+      padding: 3%;
+      background-color: #ffffff; }
+      #competences section article img {
+        z-index: 99;
+        height: 10vh;
+        display: block; }
+
+#work {
+  padding: 6.66667% 0%;
+  position: relative;
+  z-index: 0;
+  background-color: #23252A; }
+  #work h2 {
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: "Gotham-bold";
+    text-align: center; }
+    #work h2 span {
+      color: #FF003A; }
+  #work h3 {
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin-top: 2vh;
+    font-family: "Gotham-bold";
+    display: block; }
+  #work p {
+    font-size: 0.8vw;
+    color: #8e9199;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.02px; }
+  #work .flex {
+    margin-top: 5vh; }
+    #work .flex section:nth-child(2n) {
+      margin-top: 3vh; }
+
+#competences, #hackathon, #entreprises {
+  padding: 6.66667% 0%;
+  position: relative;
+  z-index: 0;
+  background-color: pink;
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  border-right: 10px solid rgba(0, 0, 0, 0); }
+  #competences h2, #hackathon h2, #entreprises h2 {
+    font-size: 3vw;
+    color: #23252A;
+    font-family: "Gotham-bold";
+    text-align: center; }
+  #competences p, #hackathon p, #entreprises p {
+    font-size: 0.8vw;
+    color: #8e9199;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.02px; }
+  #competences a, #hackathon a, #entreprises a {
+    font-family: "Gotham-bold";
+    font-size: 0.8vw;
+    padding: 2% 0%;
+    display: block;
+    box-shadow: 0 3px 6px 0 #FF003A;
+    background-color: #FF003A;
+    color: #ffffff;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+  #competences section, #hackathon section, #entreprises section {
+    z-index: 99;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+    #competences section article, #hackathon section article, #entreprises section article {
+      z-index: 99;
+      padding: 3%;
+      background-color: #ffffff; }
+      #competences section article img, #hackathon section article img, #entreprises section article img {
+        z-index: 99;
+        height: 10vh;
+        display: block; }
+
+#entreprises {
+  background-color: red !important; }
+
+#hackathon {
+  background-color: #ffffff; }
+  #hackathon section {
+    box-shadow: none; }
+    #hackathon section article {
+      padding: 0% !important; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

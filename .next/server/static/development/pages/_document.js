@@ -4179,34 +4179,107 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 9
       },
       __self: this
-    }), __jsx("link", {
-      rel: "stylesheet",
-      href: "https://unpkg.com/swiper/css/swiper.css",
+    }), __jsx("title", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
       },
       __self: this
-    }), __jsx("link", {
-      rel: "stylesheet",
-      href: "https://unpkg.com/swiper/css/swiper.min.css",
+    }, "Yanis Elmaleh Portfolio"), __jsx("meta", {
+      name: "author",
+      content: "Yanis Elmaleh",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11
       },
       __self: this
-    }), __jsx("script", {
-      src: "https://unpkg.com/swiper/js/swiper.js",
+    }), __jsx("meta", {
+      name: "language",
+      content: "fr",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }), __jsx("meta", {
+      name: "description",
+      content: "Portfolio de Yanis Elmaleh - Web designer / Freelance sur Paris - Sp\xE9cialis\xE9e dans le \xE9veloppement web, la conception graphique de projet print et web.",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
       },
       __self: this
-    }), __jsx("script", {
-      src: "https://unpkg.com/swiper/js/swiper.min.js",
+    }), __jsx("meta", {
+      name: "robots",
+      content: "index,follow",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
+      },
+      __self: this
+    }), __jsx("meta", {
+      name: "keywords",
+      content: "yanis elmaleh, yanis elmaleh portfolio",
+      lang: "fr",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "canonical",
+      href: "https://www.yaniselmaleh.fr/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }), __jsx("meta", {
+      property: "og:type",
+      content: "website",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }), __jsx("meta", {
+      property: "og:title",
+      content: "Yanis Elmaleh Portfolio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }), __jsx("meta", {
+      property: "og:description",
+      content: "Portfolio de Yanis Elmaleh - Web designer / Freelance sur Paris - Sp\xC3\xA9cialis\xC3\xA9e dans le d\xC3\xA9veloppement web, la conception graphique de projet print et web.",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }), __jsx("meta", {
+      property: "og:url",
+      content: "https://yaniselmaleh.fr",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }), __jsx("meta", {
+      property: "og:site_name",
+      content: "Yanis Elmaleh Portfolio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }), __jsx("meta", {
+      "http-equiv": "Content-Type",
+      content: "text/html; charset=UTF-8",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
       },
       __self: this
     }), __jsx("meta", {
@@ -4214,7 +4287,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 23
       },
       __self: this
     }), __jsx("body", {
@@ -4222,25 +4295,25 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       "data-countrycode": "fr",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 34
       },
       __self: this
     }, __jsx("main", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 35
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 36
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 37
       },
       __self: this
     }))));

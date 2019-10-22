@@ -2,14 +2,16 @@ import '../sass/components/_reset.scss'
 import '../sass/components/_font.scss'
 import '../sass/components/_home.scss'
 import '../sass/components/_grid.scss'
-import '../sass/components/_propos.scss'
 import '../sass/components/_mouse.scss'
 import '../sass/components/_portfolio.scss'
 
+import Competences from '../components/Competences'
+import Work from '../components/Work'
+import Entreprise from '../components/Entreprises'
+import Hackathon from '../components/Hackathon'
+
 import Pulse from 'react-reveal/Pulse'
-import Fade from 'react-reveal/Fade'
 import Jump from 'react-reveal/Jump'
-import CountTo from 'react-count-to';
 
 import 'react-app-polyfill/ie9'
 import 'react-app-polyfill/ie11'
@@ -54,74 +56,10 @@ const Index = () => (
         </div>
       </section>
 
-      <section id="propos">
-        <div className="container">
-          <Fade left>
-          <h2>Plus qu'un métier, une <span>passion</span>.</h2>
-
-          </Fade>
-          <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.
-            <br/><br/>
-            Si vous souhaitez en savoir plus, n’hésitez pas à me joindre sur Linkedin. 
-          <CountTo to={12345} speed={12345} />
-          </p>
-
-
-          
-
-          {/* <div id="test"></div> */}
-          
-          <div className="flex under2">
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-            <div className="gutter2"></div>
-          </div>
-
-          <section className="flex">
-          <Fade left cascade>
-            <article className="col-2">
-              <img src="/react.svg" alt="react"/>
-            </article>
-          </Fade>
-
-          <Fade left cascade delay={250}>
-            <article className="col-2">
-              <img src="/symfony.svg" alt="symfony"/>
-            </article>
-          </Fade>
-
-            <Fade left cascade delay={500}>
-              <article className="col-2">
-                <img src="/next-js.svg" alt="next-js"/>
-              </article>
-            </Fade>
-
-            <Fade left cascade delay={750}>
-              <article className="col-2">
-                <img src="/firebase.svg" alt="firebase"/>
-              </article>
-            </Fade>
-
-            <Fade left cascade delay={1000}>
-              <article className="col-2">
-                <img src="/wordpress.svg" alt="wordpress"/>
-              </article>
-            </Fade>
-
-            <Fade left cascade delay={1250}>
-              <article className="col-2">
-                <img src="/prestashop.svg" alt="prestashop"/>
-              </article>
-            </Fade>
-            
-          </section>
-        </div>
-      </section>
+      <Competences/>
+      <Work/>
+      <Entreprise/>
+      <Hackathon/>
 
       {/* <section id="portfolio">
           <Portfolio/>
