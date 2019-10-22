@@ -124,14 +124,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-reveal/Jump */ "react-reveal/Jump");
 /* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_count_to__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-count-to */ "react-count-to");
+/* harmony import */ var react_count_to__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_count_to__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_15__);
 var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -144,7 +146,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // import {Spring} from 'react-spring/renderprops'
+
 
 
 
@@ -256,17 +258,10 @@ const Index = () => __jsx("section", {
   className: "flex under",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "gutter",
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 44
   },
   __self: undefined
-}), __jsx("div", {
+}, __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
@@ -315,86 +310,80 @@ const Index = () => __jsx("section", {
     lineNumber: 51
   },
   __self: undefined
+}), __jsx("div", {
+  className: "gutter",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52
+  },
+  __self: undefined
 })))), __jsx("section", {
   id: "propos",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 56
+    lineNumber: 57
   },
   __self: undefined
 }, __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 57
+    lineNumber: 58
   },
   __self: undefined
 }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
   left: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 58
+    lineNumber: 59
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 59
+    lineNumber: 60
   },
   __self: undefined
 }, "Plus qu'un m\xE9tier, une ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 59
+    lineNumber: 60
   },
   __self: undefined
 }, "passion"), ".")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 62
+    lineNumber: 63
   },
   __self: undefined
 }, "Je projette de continuer dans le domaine du nume\u0301rique et d\u2019approfondir mes connaissances techniques tout en restant connecte\u0301 avec l\u2019e\u0301volution et les tendances technologiques.", __jsx("br", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63
+    lineNumber: 64
   },
   __self: undefined
 }), __jsx("br", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63
+    lineNumber: 64
   },
   __self: undefined
-}), "Si vous souhaitez en savoir plus, n\u2019h\xE9sitez pas \xE0 me joindre sur Linkedin."), __jsx("div", {
+}), "Si vous souhaitez en savoir plus, n\u2019h\xE9sitez pas \xE0 me joindre sur Linkedin.", __jsx(react_count_to__WEBPACK_IMPORTED_MODULE_11___default.a, {
+  to: 12345,
+  speed: 12345,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 66
+  },
+  __self: undefined
+})), __jsx("div", {
   className: "flex under2",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 71
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "gutter2",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 72
-  },
-  __self: undefined
-}), __jsx("div", {
-  className: "gutter2",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 73
-  },
-  __self: undefined
-}), __jsx("div", {
-  className: "gutter2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 74
   },
   __self: undefined
-}), __jsx("div", {
+}, __jsx("div", {
   className: "gutter2",
   __source: {
     fileName: _jsxFileName,
@@ -429,11 +418,32 @@ const Index = () => __jsx("section", {
     lineNumber: 79
   },
   __self: undefined
+}), __jsx("div", {
+  className: "gutter2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 80
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "gutter2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "gutter2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
 })), __jsx("section", {
   className: "flex",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 82
+    lineNumber: 85
   },
   __self: undefined
 }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -441,14 +451,14 @@ const Index = () => __jsx("section", {
   cascade: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 83
+    lineNumber: 86
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 84
+    lineNumber: 87
   },
   __self: undefined
 }, __jsx("img", {
@@ -456,7 +466,7 @@ const Index = () => __jsx("section", {
   alt: "react",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 85
+    lineNumber: 88
   },
   __self: undefined
 }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -465,14 +475,14 @@ const Index = () => __jsx("section", {
   delay: 250,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 89
+    lineNumber: 92
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 90
+    lineNumber: 93
   },
   __self: undefined
 }, __jsx("img", {
@@ -480,7 +490,7 @@ const Index = () => __jsx("section", {
   alt: "symfony",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 91
+    lineNumber: 94
   },
   __self: undefined
 }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -489,14 +499,14 @@ const Index = () => __jsx("section", {
   delay: 500,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 95
+    lineNumber: 98
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 96
+    lineNumber: 99
   },
   __self: undefined
 }, __jsx("img", {
@@ -504,7 +514,7 @@ const Index = () => __jsx("section", {
   alt: "next-js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 97
+    lineNumber: 100
   },
   __self: undefined
 }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -513,14 +523,14 @@ const Index = () => __jsx("section", {
   delay: 750,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 101
+    lineNumber: 104
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 102
+    lineNumber: 105
   },
   __self: undefined
 }, __jsx("img", {
@@ -528,7 +538,7 @@ const Index = () => __jsx("section", {
   alt: "firebase",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 103
+    lineNumber: 106
   },
   __self: undefined
 }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -537,14 +547,14 @@ const Index = () => __jsx("section", {
   delay: 1000,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 107
+    lineNumber: 110
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 108
+    lineNumber: 111
   },
   __self: undefined
 }, __jsx("img", {
@@ -552,7 +562,7 @@ const Index = () => __jsx("section", {
   alt: "wordpress",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 109
+    lineNumber: 112
   },
   __self: undefined
 }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -561,14 +571,14 @@ const Index = () => __jsx("section", {
   delay: 1250,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 113
+    lineNumber: 116
   },
   __self: undefined
 }, __jsx("article", {
   className: "col-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 114
+    lineNumber: 117
   },
   __self: undefined
 }, __jsx("img", {
@@ -576,7 +586,7 @@ const Index = () => __jsx("section", {
   alt: "prestashop",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 115
+    lineNumber: 118
   },
   __self: undefined
 })))))));
@@ -769,6 +779,17 @@ module.exports = require("react-app-polyfill/ie9");
 /***/ (function(module, exports) {
 
 module.exports = require("react-app-polyfill/stable");
+
+/***/ }),
+
+/***/ "react-count-to":
+/*!*********************************!*\
+  !*** external "react-count-to" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-count-to");
 
 /***/ }),
 

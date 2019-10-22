@@ -9,7 +9,7 @@ import '../sass/components/_portfolio.scss'
 import Pulse from 'react-reveal/Pulse'
 import Fade from 'react-reveal/Fade'
 import Jump from 'react-reveal/Jump'
-// import {Spring} from 'react-spring/renderprops'
+import CountTo from 'react-count-to';
 
 import 'react-app-polyfill/ie9'
 import 'react-app-polyfill/ie11'
@@ -20,10 +20,10 @@ const Index = () => (
     <section>
       <section id="home">
         <div className="flex-center">
-        <Pulse duration={2000}>
-          <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
+          <Pulse duration={2000}>
+            <h1>Yanis Elmaleh Développeur <span>Freelance</span>.</h1>
           </Pulse>
-          
+  
           <p>Disponible</p>
 
           <Jump duration={1000}>
@@ -40,6 +40,7 @@ const Index = () => (
               <img src="/github.svg" alt="github yanis elmaleh"/>
             </a>
           </div>
+          
           <div className="flex under">
             <div className="gutter"></div>
             <div className="gutter"></div>
@@ -62,7 +63,9 @@ const Index = () => (
           <p>Je projette de continuer dans le domaine du numérique et d’approfondir mes connaissances techniques tout en restant connecté avec l’évolution et les tendances technologiques.
             <br/><br/>
             Si vous souhaitez en savoir plus, n’hésitez pas à me joindre sur Linkedin. 
+          <CountTo to={12345} speed={12345} />
           </p>
+
 
           
 

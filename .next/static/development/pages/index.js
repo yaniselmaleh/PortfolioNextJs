@@ -31093,6 +31093,208 @@ __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerat
 
 /***/ }),
 
+/***/ "./node_modules/react-count-to/dist/react-count-to.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-count-to/dist/react-count-to.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var propTypes = {
+  from: _propTypes2.default.number,
+  to: _propTypes2.default.number.isRequired,
+  speed: _propTypes2.default.number.isRequired,
+  delay: _propTypes2.default.number,
+  onComplete: _propTypes2.default.func,
+  digits: _propTypes2.default.number,
+  className: _propTypes2.default.string,
+  tagName: _propTypes2.default.string,
+  children: _propTypes2.default.func,
+  easing: _propTypes2.default.func
+};
+
+var defaultProps = {
+  from: 0,
+  delay: 100,
+  digits: 0,
+  tagName: 'span',
+  easing: function easing(t) {
+    return t;
+  }
+};
+
+var CountTo = function (_PureComponent) {
+  _inherits(CountTo, _PureComponent);
+
+  function CountTo(props) {
+    _classCallCheck(this, CountTo);
+
+    var _this = _possibleConstructorReturn(this, (CountTo.__proto__ || Object.getPrototypeOf(CountTo)).call(this, props));
+
+    var from = props.from;
+
+
+    _this.state = {
+      counter: from
+    };
+
+    _this.start = _this.start.bind(_this);
+    _this.clear = _this.clear.bind(_this);
+    _this.next = _this.next.bind(_this);
+    _this.updateCounter = _this.updateCounter.bind(_this);
+    return _this;
+  }
+
+  _createClass(CountTo, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.start();
+    }
+  }, {
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nextProps) {
+      var _props = this.props,
+          from = _props.from,
+          to = _props.to;
+
+
+      if (nextProps.to !== to || nextProps.from !== from) {
+        this.start(nextProps);
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this.clear();
+    }
+  }, {
+    key: 'start',
+    value: function start() {
+      var _this2 = this;
+
+      var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.props;
+
+      this.clear();
+      var from = props.from;
+
+      this.setState({
+        counter: from
+      }, function () {
+        var _props2 = _this2.props,
+            speed = _props2.speed,
+            delay = _props2.delay;
+
+        var now = Date.now();
+        _this2.endDate = now + speed;
+        _this2.scheduleNextUpdate(now, delay);
+        _this2.raf = requestAnimationFrame(_this2.next);
+      });
+    }
+  }, {
+    key: 'next',
+    value: function next() {
+      var now = Date.now();
+      var _props3 = this.props,
+          speed = _props3.speed,
+          onComplete = _props3.onComplete,
+          delay = _props3.delay;
+
+
+      if (now >= this.nextUpdate) {
+        var progress = Math.max(0, Math.min(1, 1 - (this.endDate - now) / speed));
+        this.updateCounter(progress);
+        this.scheduleNextUpdate(now, delay);
+      }
+
+      if (now < this.endDate) {
+        this.raf = requestAnimationFrame(this.next);
+      } else if (onComplete) {
+        onComplete();
+      }
+    }
+  }, {
+    key: 'scheduleNextUpdate',
+    value: function scheduleNextUpdate(now, delay) {
+      this.nextUpdate = Math.min(now + delay, this.endDate);
+    }
+  }, {
+    key: 'updateCounter',
+    value: function updateCounter(progress) {
+      var _props4 = this.props,
+          from = _props4.from,
+          to = _props4.to,
+          easing = _props4.easing;
+
+      var delta = to - from;
+      var counter = from + delta * easing(progress);
+      this.setState({
+        counter: counter
+      });
+    }
+  }, {
+    key: 'clear',
+    value: function clear() {
+      cancelAnimationFrame(this.raf);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props5 = this.props,
+          className = _props5.className,
+          digits = _props5.digits,
+          Tag = _props5.tagName,
+          fn = _props5.children;
+      var counter = this.state.counter;
+
+      var value = counter.toFixed(digits);
+
+      if (fn) {
+        return fn(value);
+      }
+
+      return _react2.default.createElement(
+        Tag,
+        { className: className },
+        value
+      );
+    }
+  }]);
+
+  return CountTo;
+}(_react.PureComponent);
+
+CountTo.propTypes = propTypes;
+CountTo.defaultProps = defaultProps;
+
+exports.default = CountTo;
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -32765,14 +32967,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-reveal/Jump */ "./node_modules/react-reveal/Jump.js");
 /* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "./node_modules/react-app-polyfill/ie9.js");
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "./node_modules/react-app-polyfill/ie11.js");
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-app-polyfill/stable */ "./node_modules/react-app-polyfill/stable.js");
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! core-js/stable */ "./node_modules/core-js/stable/index.js");
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_count_to__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-count-to */ "./node_modules/react-count-to/dist/react-count-to.js");
+/* harmony import */ var react_count_to__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_count_to__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "./node_modules/react-app-polyfill/ie9.js");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "./node_modules/react-app-polyfill/ie11.js");
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-app-polyfill/stable */ "./node_modules/react-app-polyfill/stable.js");
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! core-js/stable */ "./node_modules/core-js/stable/index.js");
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_15__);
 var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -32785,7 +32989,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // import {Spring} from 'react-spring/renderprops'
+
 
 
 
@@ -32898,17 +33102,10 @@ var Index = function Index() {
     className: "flex under",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "gutter",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }), __jsx("div", {
+  }, __jsx("div", {
     className: "gutter",
     __source: {
       fileName: _jsxFileName,
@@ -32957,86 +33154,80 @@ var Index = function Index() {
       lineNumber: 51
     },
     __self: this
+  }), __jsx("div", {
+    className: "gutter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
   })))), __jsx("section", {
     id: "propos",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 57
     },
     __self: this
   }, __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 58
     },
     __self: this
   }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
     left: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 59
     },
     __self: this
   }, __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 60
     },
     __self: this
   }, "Plus qu'un m\xE9tier, une ", __jsx("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 60
     },
     __self: this
   }, "passion"), ".")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, "Je projette de continuer dans le domaine du nume\u0301rique et d\u2019approfondir mes connaissances techniques tout en restant connecte\u0301 avec l\u2019e\u0301volution et les tendances technologiques.", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
-  }), "Si vous souhaitez en savoir plus, n\u2019h\xE9sitez pas \xE0 me joindre sur Linkedin."), __jsx("div", {
+  }), "Si vous souhaitez en savoir plus, n\u2019h\xE9sitez pas \xE0 me joindre sur Linkedin.", __jsx(react_count_to__WEBPACK_IMPORTED_MODULE_11___default.a, {
+    to: 12345,
+    speed: 12345,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  })), __jsx("div", {
     className: "flex under2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "gutter2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "gutter2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "gutter2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 74
     },
     __self: this
-  }), __jsx("div", {
+  }, __jsx("div", {
     className: "gutter2",
     __source: {
       fileName: _jsxFileName,
@@ -33071,11 +33262,32 @@ var Index = function Index() {
       lineNumber: 79
     },
     __self: this
+  }), __jsx("div", {
+    className: "gutter2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "gutter2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "gutter2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
   })), __jsx("section", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 85
     },
     __self: this
   }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -33083,14 +33295,14 @@ var Index = function Index() {
     cascade: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 86
     },
     __self: this
   }, __jsx("article", {
     className: "col-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 87
     },
     __self: this
   }, __jsx("img", {
@@ -33098,7 +33310,7 @@ var Index = function Index() {
     alt: "react",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 88
     },
     __self: this
   }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -33107,14 +33319,14 @@ var Index = function Index() {
     delay: 250,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 92
     },
     __self: this
   }, __jsx("article", {
     className: "col-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 93
     },
     __self: this
   }, __jsx("img", {
@@ -33122,7 +33334,7 @@ var Index = function Index() {
     alt: "symfony",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 94
     },
     __self: this
   }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -33131,14 +33343,14 @@ var Index = function Index() {
     delay: 500,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 98
     },
     __self: this
   }, __jsx("article", {
     className: "col-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 99
     },
     __self: this
   }, __jsx("img", {
@@ -33146,7 +33358,7 @@ var Index = function Index() {
     alt: "next-js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 100
     },
     __self: this
   }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -33155,14 +33367,14 @@ var Index = function Index() {
     delay: 750,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 104
     },
     __self: this
   }, __jsx("article", {
     className: "col-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 105
     },
     __self: this
   }, __jsx("img", {
@@ -33170,7 +33382,7 @@ var Index = function Index() {
     alt: "firebase",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 106
     },
     __self: this
   }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -33179,14 +33391,14 @@ var Index = function Index() {
     delay: 1000,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 110
     },
     __self: this
   }, __jsx("article", {
     className: "col-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 111
     },
     __self: this
   }, __jsx("img", {
@@ -33194,7 +33406,7 @@ var Index = function Index() {
     alt: "wordpress",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 112
     },
     __self: this
   }))), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -33203,14 +33415,14 @@ var Index = function Index() {
     delay: 1250,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 116
     },
     __self: this
   }, __jsx("article", {
     className: "col-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 117
     },
     __self: this
   }, __jsx("img", {
@@ -33218,7 +33430,7 @@ var Index = function Index() {
     alt: "prestashop",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 118
     },
     __self: this
   })))))));
