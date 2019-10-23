@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -142,7 +142,7 @@ function Test() {
       lineNumber: 10
     },
     __self: this
-  }, "EXPERTISE"), __jsx("h2", {
+  }, "- EXPERTISE -"), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -361,7 +361,7 @@ function Entreprises() {
       lineNumber: 10
     },
     __self: this
-  }, "ENTREPRISES"), __jsx("h2", {
+  }, "- ENTREPRISES -"), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -684,6 +684,372 @@ function Hackathon() {
 
 /***/ }),
 
+/***/ "./components/Portfolio.js":
+/*!*********************************!*\
+  !*** ./components/Portfolio.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_stack_grid__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-stack-grid */ "react-stack-grid");
+/* harmony import */ var react_stack_grid__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_stack_grid__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/components/_portfolio.scss */ "./sass/components/_portfolio.scss");
+/* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/components/Portfolio.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return __jsx("section", {
+      id: "portfolio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, "UX/UI - DEV - PWA"), __jsx("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, "Derniers projets"), __jsx("div", {
+      id: "contain",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, __jsx(react_stack_grid__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      columnWidth: 300,
+      gutterWidth: 25,
+      gutterHeight: 25,
+      itemComponent: "section",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, __jsx("article", {
+      key: "key1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/500x1000",
+      alt: "yunt",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key2",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "WaveRadio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key3",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 34
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/500x800",
+      alt: "Baskerville",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key4",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "Warner France",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/500x1000",
+      alt: "Warner France",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key6",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "Marvel",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key7",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/500x800",
+      alt: "G\xE9ode",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key8",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "Jetetienaucourant",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key9",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "Accor Hotel",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key10",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "Bzity",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key11",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 82
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 83
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/500x500",
+      alt: "yunt",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }))), __jsx("article", {
+      key: "key12",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "https://via.placeholder.com/1000",
+      alt: "WaveRadio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90
+      },
+      __self: this
+    })))), __jsx("a", {
+      href: "https://linkedin.com/in/yaniselmaleh",
+      title: "linkedin yanis elmaleh",
+      target: "_blank",
+      id: "cta",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 95
+      },
+      __self: this
+    }, "En savoir plus ?")));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
+
+/***/ }),
+
 /***/ "./components/Work.js":
 /*!****************************!*\
   !*** ./components/Work.js ***!
@@ -733,7 +1099,7 @@ function Work() {
       lineNumber: 10
     },
     __self: this
-  }, "TRAVAILLON ENSEMBLES"), __jsx("h2", {
+  }, "- TRAVAILLON ENSEMBLES -"), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -892,18 +1258,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Work__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Work */ "./components/Work.js");
 /* harmony import */ var _components_Entreprises__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Entreprises */ "./components/Entreprises.js");
 /* harmony import */ var _components_Hackathon__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Hackathon */ "./components/Hackathon.js");
-/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-reveal/Pulse */ "react-reveal/Pulse");
-/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-reveal/Jump */ "react-reveal/Jump");
-/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
+/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-reveal/Pulse */ "react-reveal/Pulse");
+/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-reveal/Jump */ "react-reveal/Jump");
+/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_17__);
 var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -924,69 +1291,70 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Index = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("section", {
   id: "home",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }, __jsx("div", {
   className: "flex-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 25
   },
   __self: undefined
-}, __jsx(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_11___default.a, {
+}, __jsx(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_12___default.a, {
   duration: 2000,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 26
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 27
   },
   __self: undefined
 }, "Yanis Elmaleh D\xE9veloppeur ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 27
   },
   __self: undefined
 }, "Freelance"), ".")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 30
   },
   __self: undefined
-}, "Disponible"), __jsx(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_12___default.a, {
+}, "Disponible"), __jsx(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_13___default.a, {
   duration: 1000,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 31
-  },
-  __self: undefined
-}, __jsx("div", {
-  class: "mouse",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
   },
   __self: undefined
+}, __jsx("div", {
+  className: "mouse",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
 })), __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 37
   },
   __self: undefined
 }, __jsx("a", {
@@ -996,7 +1364,7 @@ const Index = () => __jsx("section", {
   className: "flex-rs1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 38
   },
   __self: undefined
 }, __jsx("img", {
@@ -1004,7 +1372,7 @@ const Index = () => __jsx("section", {
   alt: "linkedin yanis elmaleh",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 39
   },
   __self: undefined
 })), __jsx("a", {
@@ -1014,7 +1382,7 @@ const Index = () => __jsx("section", {
   className: "flex-rs2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 42
   },
   __self: undefined
 }, __jsx("img", {
@@ -1022,24 +1390,17 @@ const Index = () => __jsx("section", {
   alt: "github yanis elmaleh",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 43
   },
   __self: undefined
 }))), __jsx("div", {
   className: "flex under",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "gutter",
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 47
   },
   __self: undefined
-}), __jsx("div", {
+}, __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
@@ -1088,28 +1449,41 @@ const Index = () => __jsx("section", {
     lineNumber: 54
   },
   __self: undefined
-})))), __jsx(_components_Competences__WEBPACK_IMPORTED_MODULE_7__["default"], {
+}), __jsx("div", {
+  className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 59
+    lineNumber: 55
   },
   __self: undefined
-}), __jsx(_components_Work__WEBPACK_IMPORTED_MODULE_8__["default"], {
+})))), __jsx(_components_Competences__WEBPACK_IMPORTED_MODULE_7__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 60
   },
   __self: undefined
-}), __jsx(_components_Entreprises__WEBPACK_IMPORTED_MODULE_9__["default"], {
+}), __jsx(_components_Work__WEBPACK_IMPORTED_MODULE_8__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 61
   },
   __self: undefined
-}), __jsx(_components_Hackathon__WEBPACK_IMPORTED_MODULE_10__["default"], {
+}), __jsx(_components_Entreprises__WEBPACK_IMPORTED_MODULE_9__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 62
+  },
+  __self: undefined
+}), __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 63
+  },
+  __self: undefined
+}), __jsx(_components_Hackathon__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 64
   },
   __self: undefined
 }));
@@ -1260,7 +1634,7 @@ const Index = () => __jsx("section", {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1357,6 +1731,17 @@ module.exports = require("react-reveal/Jump");
 /***/ (function(module, exports) {
 
 module.exports = require("react-reveal/Pulse");
+
+/***/ }),
+
+/***/ "react-stack-grid":
+/*!***********************************!*\
+  !*** external "react-stack-grid" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-stack-grid");
 
 /***/ })
 

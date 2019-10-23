@@ -9,6 +9,7 @@ import Competences from '../components/Competences'
 import Work from '../components/Work'
 import Entreprise from '../components/Entreprises'
 import Hackathon from '../components/Hackathon'
+import Portfolio from '../components/Portfolio'
 
 import Pulse from 'react-reveal/Pulse'
 import Jump from 'react-reveal/Jump'
@@ -29,7 +30,7 @@ const Index = () => (
           <p>Disponible</p>
 
           <Jump duration={1000}>
-          <div class="mouse"></div>
+          <div className="mouse"></div>
             {/* <span id="bar"></span> */}
           </Jump>
 
@@ -59,6 +60,7 @@ const Index = () => (
       <Competences/>
       <Work/>
       <Entreprise/>
+      <Portfolio/>
       <Hackathon/>
 
       {/* <section id="portfolio">

@@ -7,7 +7,7 @@ export default function Entreprises() {
         <section id="entreprises">
             <div className="container">
                 <Fade left>
-                    <p>ENTREPRISES</p>
+                    <p>- ENTREPRISES -</p>
                     <h2>Ils m’ont fait confiance</h2>
                 </Fade>
                 

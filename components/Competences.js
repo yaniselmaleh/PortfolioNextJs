@@ -7,7 +7,7 @@ export default function Test() {
         <section id="competences">
             <div className="container">
                 <Fade left>
-                    <p>EXPERTISE</p>
+                    <p>- EXPERTISE -</p>
                     <h2>Compétences</h2>
                 </Fade>
                 

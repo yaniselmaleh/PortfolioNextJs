@@ -7,7 +7,7 @@ export default function Work() {
         <section id="work">
             <div className="container">
                 <Fade left>
-                    <p>TRAVAILLON ENSEMBLES</p>
+                    <p>- TRAVAILLON ENSEMBLES -</p>
                     <h2>Votre projet en <span>4 étapes</span>.</h2>
                 </Fade>
                 

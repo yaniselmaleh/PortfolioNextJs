@@ -4275,7 +4275,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       },
       __self: this
     }), __jsx("meta", {
-      "http-equiv": "Content-Type",
+      httpEquiv: "Content-Type",
       content: "text/html; charset=UTF-8",
       __source: {
         fileName: _jsxFileName,

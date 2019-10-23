@@ -337,21 +337,52 @@ img {
     transform: translateY(0); } }
 
 #portfolio {
-  height: 350vh;
-  padding-top: 10%;
+  margin: auto;
+  display: block;
+  padding-top: 5%;
   padding-bottom: 5%;
-  position: relative;
-  z-index: 0;
-  background-color: #23252A;
-  border-left: 10px solid #FF003A;
-  border-right: 10px solid #FF003A;
-  border-bottom: 10px solid #FF003A; }
+  background-color: burlywood;
+  text-align: center; }
+  #portfolio h2 {
+    font-size: 3vw;
+    color: #23252A;
+    font-family: "Gotham-bold";
+    text-align: center;
+    padding-bottom: 5%; }
+  #portfolio p {
+    font-size: 0.8vw;
+    color: #8e9199;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.02px; }
+  #portfolio #contain {
+    width: 90%;
+    margin: auto;
+    display: block; }
+    #portfolio #contain #cta {
+      margin-top: 20%;
+      font-family: "Gotham-bold";
+      font-size: 0.8vw;
+      padding: 2% 0%;
+      display: block;
+      box-shadow: 0 3px 6px 0 #FF003A;
+      background-color: #FF003A;
+      color: #ffffff;
+      width: 30%;
+      margin: auto;
+      text-align: center;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px; }
 
 #competences {
   padding: 6.66667% 0%;
   position: relative;
   z-index: 0;
-  background-color: pink;
+  background-color: #ffffff;
   border-left: 10px solid rgba(0, 0, 0, 0);
   border-right: 10px solid rgba(0, 0, 0, 0); }
   #competences h2 {
@@ -435,7 +466,7 @@ img {
   padding: 6.66667% 0%;
   position: relative;
   z-index: 0;
-  background-color: pink;
+  background-color: #ffffff;
   border-left: 10px solid rgba(0, 0, 0, 0);
   border-right: 10px solid rgba(0, 0, 0, 0); }
   #competences h2, #hackathon h2, #entreprises h2 {
@@ -484,9 +515,6 @@ img {
         z-index: 99;
         height: 10vh;
         display: block; }
-
-#entreprises {
-  background-color: red !important; }
 
 #hackathon {
   background-color: #ffffff; }
