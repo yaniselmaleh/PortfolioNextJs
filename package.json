@@ -28,6 +28,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
+    "react-burger-menu": "^2.6.11",
     "react-count-to": "^0.12.0",
     "react-dom": "^16.11.0",
     "react-reveal": "^1.2.2",

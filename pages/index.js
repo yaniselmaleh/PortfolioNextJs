@@ -5,6 +5,7 @@ import '../sass/components/_grid.scss'
 import '../sass/components/_mouse.scss'
 import '../sass/components/_portfolio.scss'
 
+import MenuBurger from '../components/MenuBurger'
 import Competences from '../components/Competences'
 import Work from '../components/Work'
 import Entreprise from '../components/Entreprises'
@@ -20,7 +21,13 @@ import 'react-app-polyfill/stable'
 import 'core-js/stable'
 
 const Index = () => (
+
     <section>
+
+<React.Fragment>
+    <MenuBurger/>
+  </React.Fragment>
+
       <section id="home">
         <div className="flex-center">
           <Pulse duration={2000}>

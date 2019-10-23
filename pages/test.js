@@ -1,30 +1,25 @@
 import '../sass/components/_reset.scss'
-import '../sass/components/_grid.scss'
+import '../sass/components/_menu.scss'
 
-export default function Test() {
-    return (
-      <section className="container">
+import { elastic as Menu } from 'react-burger-menu'
+import React, { Component } from 'react'
 
-          <h2 style={{textAlign:"center", marginTop:"5vh"}}>Travaillons ensembles</h2>
+class Test extends Component{
 
-        <section className="flex supertest">
-            <article className="art1 col-3">
-                <h3>Problématique</h3>
-            </article>
+    howSettings (event) {
+        event.preventDefault();
+      }
+    
 
-            <article className="art2 col-3">
-                <h3>Solution</h3>
-            </article>
+    render(){
+        return(
+            <Menu right>
+                <a id="home" className="menu-item" href="/" title="lorem">Home</a>
+                <a id="about" className="menu-item" href="/about" title="lorem">About</a>
+                <a id="contact" className="menu-item" href="/contact" title="lorem">Contact</a>
+            </Menu>
+        )
+    }
+}
 
-            <article className="art3 col-3">
-                <h3>Conception</h3>
-            </article>
-
-            <article className="art4 col-3">
-                <h3>Développement</h3>
-            </article>
-        </section>
-
-      </section>
-    );
-  }
+export default Test

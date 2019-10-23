@@ -8,45 +8,48 @@ export default function Entreprises() {
             <div className="container">
                 <Fade left>
                     <p>- ENTREPRISES -</p>
-                    <h2>Ils m’ont fait confiance</h2>
+                    <h2>Ils m’ont fait <span>confiance</span>.</h2>
                 </Fade>
                 
                 <section className="flex">
+
                     <Fade left cascade>
                         <article className="col-2">
-                        <img src="/react.svg" alt="react"/>
+                            <img src="Ministere-des-armees.png" alt=""/>
+                        </article>
+                    </Fade>
+
+                    <Fade left cascade>
+                        <article className="col-2">
+                        <img src="/meltdown.png" alt="react"/>
                         </article>
                     </Fade>
 
                     <Fade left cascade delay={250}>
                         <article className="col-2">
-                        <img src="/symfony.svg" alt="symfony"/>
+                        <img src="/warren-walter.svg" alt="symfony"/>
                         </article>
                     </Fade>
 
                     <Fade left cascade delay={500}>
                         <article className="col-2">
-                        <img src="/next-js.svg" alt="next-js"/>
+                            <img src="/AFM-TELETHON.png" alt=""/>
                         </article>
                     </Fade>
 
                     <Fade left cascade delay={750}>
                         <article className="col-2">
-                        <img src="/firebase.svg" alt="firebase"/>
+                            <img src="c17.png" alt=""/>
                         </article>
                     </Fade>
 
                     <Fade left cascade delay={1000}>
                         <article className="col-2">
-                        <img src="/wordpress.svg" alt="wordpress"/>
+                            <img src="cap-lab.png" alt=""/>
                         </article>
                     </Fade>
 
-                    <Fade left cascade delay={1250}>
-                        <article className="col-2">
-                        <img src="/prestashop.svg" alt="prestashop"/>
-                        </article>
-                    </Fade>
+                    
                 </section>
             </div>
       </section>

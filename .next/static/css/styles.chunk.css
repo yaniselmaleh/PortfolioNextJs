@@ -341,11 +341,11 @@ img {
   display: block;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: burlywood;
+  background-color: #2F3135;
   text-align: center; }
   #portfolio h2 {
     font-size: 3vw;
-    color: #23252A;
+    color: #ffffff;
     font-family: "Gotham-bold";
     text-align: center;
     padding-bottom: 5%; }
@@ -357,26 +357,81 @@ img {
     font-weight: normal;
     letter-spacing: 1.02px; }
   #portfolio #contain {
-    width: 90%;
+    width: 85%;
     margin: auto;
-    display: block; }
-    #portfolio #contain #cta {
-      margin-top: 20%;
-      font-family: "Gotham-bold";
-      font-size: 0.8vw;
-      padding: 2% 0%;
-      display: block;
-      box-shadow: 0 3px 6px 0 #FF003A;
-      background-color: #FF003A;
-      color: #ffffff;
-      width: 30%;
-      margin: auto;
-      text-align: center;
-      border-radius: 5px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-      -o-border-radius: 5px; }
+    display: block;
+    overflow: auto; }
+    #portfolio #contain img {
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -o-border-radius: 3px; }
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 60px;
+  top: 60px; }
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #FF003A; }
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000; }
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px; }
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #FF003A; }
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  border: 10px solid #23252A; }
+
+/* General sidebar styles */
+.bm-menu {
+  background: #2F3135;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em; }
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #2F3135; }
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em; }
+
+/* Individual item */
+.bm-item {
+  display: inline-block; }
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3); }
+
+.menu-item {
+  color: #ffffff;
+  font-size: 1.2vw;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 1.02px;
+  padding-top: 10%; }
 
 #competences {
   padding: 6.66667% 0%;
@@ -474,6 +529,8 @@ img {
     color: #23252A;
     font-family: "Gotham-bold";
     text-align: center; }
+    #competences h2 span, #hackathon h2 span, #entreprises h2 span {
+      color: #FF003A; }
   #competences p, #hackathon p, #entreprises p {
     font-size: 0.8vw;
     color: #8e9199;

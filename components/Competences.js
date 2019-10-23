@@ -48,7 +48,7 @@ export default function Test() {
                         </article>
                     </Fade>
                 </section>
-                <a href="https://linkedin.com/in/yaniselmaleh" title="linkedin yanis elmaleh" target="_blank">Télécharger mon CV !</a>
+                <a href="YanisElmaleh-CV.pdf" download title="linkedin yanis elmaleh" target="_blank">Télécharger mon CV !</a>
             </div>
       </section>
     );
