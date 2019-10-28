@@ -1,3 +1,8 @@
+import 'react-app-polyfill/ie11'
+import 'react-app-polyfill/ie9'
+import 'react-app-polyfill/stable'
+// import 'core-js/stable'
+
 import '../sass/components/_reset.scss'
 import '../sass/components/_font.scss'
 import '../sass/components/_home.scss'
@@ -15,10 +20,7 @@ import Portfolio from '../components/Portfolio'
 import Pulse from 'react-reveal/Pulse'
 import Jump from 'react-reveal/Jump'
 
-import 'react-app-polyfill/ie9'
-import 'react-app-polyfill/ie11'
-import 'react-app-polyfill/stable'
-import 'core-js/stable'
+
 
 const Index = () => (
 

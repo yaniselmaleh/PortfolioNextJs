@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1383,42 +1383,40 @@ function Work() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _sass_components_reset_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../sass/components/_reset.scss */ "./sass/components/_reset.scss");
-/* harmony import */ var _sass_components_reset_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_components_reset_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sass_components_font_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/components/_font.scss */ "./sass/components/_font.scss");
-/* harmony import */ var _sass_components_font_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_font_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _sass_components_home_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/components/_home.scss */ "./sass/components/_home.scss");
-/* harmony import */ var _sass_components_home_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_components_home_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sass/components/_grid.scss */ "./sass/components/_grid.scss");
-/* harmony import */ var _sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _sass_components_mouse_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sass/components/_mouse.scss */ "./sass/components/_mouse.scss");
-/* harmony import */ var _sass_components_mouse_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_mouse_scss__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sass/components/_portfolio.scss */ "./sass/components/_portfolio.scss");
-/* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_MenuBurger__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/MenuBurger */ "./components/MenuBurger.js");
-/* harmony import */ var _components_Competences__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Competences */ "./components/Competences.js");
-/* harmony import */ var _components_Work__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Work */ "./components/Work.js");
-/* harmony import */ var _components_Entreprises__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Entreprises */ "./components/Entreprises.js");
-/* harmony import */ var _components_Hackathon__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Hackathon */ "./components/Hackathon.js");
-/* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
-/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-reveal/Pulse */ "react-reveal/Pulse");
-/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-reveal/Jump */ "react-reveal/Jump");
-/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
-/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
-/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
-/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! core-js/stable */ "core-js/stable");
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-app-polyfill/ie11 */ "react-app-polyfill/ie11");
+/* harmony import */ var react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie11__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-app-polyfill/ie9 */ "react-app-polyfill/ie9");
+/* harmony import */ var react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_ie9__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-app-polyfill/stable */ "react-app-polyfill/stable");
+/* harmony import */ var react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_app_polyfill_stable__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _sass_components_reset_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sass/components/_reset.scss */ "./sass/components/_reset.scss");
+/* harmony import */ var _sass_components_reset_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_components_reset_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _sass_components_font_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sass/components/_font.scss */ "./sass/components/_font.scss");
+/* harmony import */ var _sass_components_font_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_font_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _sass_components_home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sass/components/_home.scss */ "./sass/components/_home.scss");
+/* harmony import */ var _sass_components_home_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sass_components_home_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sass/components/_grid.scss */ "./sass/components/_grid.scss");
+/* harmony import */ var _sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_sass_components_grid_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _sass_components_mouse_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../sass/components/_mouse.scss */ "./sass/components/_mouse.scss");
+/* harmony import */ var _sass_components_mouse_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_sass_components_mouse_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../sass/components/_portfolio.scss */ "./sass/components/_portfolio.scss");
+/* harmony import */ var _sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_sass_components_portfolio_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_MenuBurger__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/MenuBurger */ "./components/MenuBurger.js");
+/* harmony import */ var _components_Competences__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Competences */ "./components/Competences.js");
+/* harmony import */ var _components_Work__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Work */ "./components/Work.js");
+/* harmony import */ var _components_Entreprises__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Entreprises */ "./components/Entreprises.js");
+/* harmony import */ var _components_Hackathon__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Hackathon */ "./components/Hackathon.js");
+/* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.js");
+/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-reveal/Pulse */ "react-reveal/Pulse");
+/* harmony import */ var react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-reveal/Jump */ "react-reveal/Jump");
+/* harmony import */ var react_reveal_Jump__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_17__);
 var _jsxFileName = "/Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
+ // import 'core-js/stable'
 
 
 
@@ -1438,78 +1436,78 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Index = () => __jsx("section", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 27
   },
   __self: undefined
 }, __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 29
   },
   __self: undefined
-}, __jsx(_components_MenuBurger__WEBPACK_IMPORTED_MODULE_7__["default"], {
+}, __jsx(_components_MenuBurger__WEBPACK_IMPORTED_MODULE_10__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 30
   },
   __self: undefined
 })), __jsx("section", {
   id: "home",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 33
   },
   __self: undefined
 }, __jsx("div", {
   className: "flex-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 34
   },
   __self: undefined
-}, __jsx(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_13___default.a, {
+}, __jsx(react_reveal_Pulse__WEBPACK_IMPORTED_MODULE_16___default.a, {
   duration: 2000,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 35
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 36
   },
   __self: undefined
 }, "Yanis Elmaleh D\xE9veloppeur ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 36
   },
   __self: undefined
 }, "Freelance"), ".")), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 39
   },
   __self: undefined
-}, "Disponible"), __jsx(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_14___default.a, {
+}, "Disponible"), __jsx(react_reveal_Jump__WEBPACK_IMPORTED_MODULE_17___default.a, {
   duration: 1000,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 41
   },
   __self: undefined
 }, __jsx("div", {
   className: "mouse",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40
+    lineNumber: 42
   },
   __self: undefined
 })), __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44
+    lineNumber: 46
   },
   __self: undefined
 }, __jsx("a", {
@@ -1519,7 +1517,7 @@ const Index = () => __jsx("section", {
   className: "flex-rs1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45
+    lineNumber: 47
   },
   __self: undefined
 }, __jsx("img", {
@@ -1527,7 +1525,7 @@ const Index = () => __jsx("section", {
   alt: "linkedin yanis elmaleh",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46
+    lineNumber: 48
   },
   __self: undefined
 })), __jsx("a", {
@@ -1537,7 +1535,7 @@ const Index = () => __jsx("section", {
   className: "flex-rs2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49
+    lineNumber: 51
   },
   __self: undefined
 }, __jsx("img", {
@@ -1545,31 +1543,17 @@ const Index = () => __jsx("section", {
   alt: "github yanis elmaleh",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
+    lineNumber: 52
   },
   __self: undefined
 }))), __jsx("div", {
   className: "flex under",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 54
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "gutter",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 55
-  },
-  __self: undefined
-}), __jsx("div", {
-  className: "gutter",
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 56
   },
   __self: undefined
-}), __jsx("div", {
+}, __jsx("div", {
   className: "gutter",
   __source: {
     fileName: _jsxFileName,
@@ -1611,34 +1595,48 @@ const Index = () => __jsx("section", {
     lineNumber: 62
   },
   __self: undefined
-})))), __jsx(_components_Competences__WEBPACK_IMPORTED_MODULE_8__["default"], {
+}), __jsx("div", {
+  className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 67
+    lineNumber: 63
   },
   __self: undefined
-}), __jsx(_components_Work__WEBPACK_IMPORTED_MODULE_9__["default"], {
+}), __jsx("div", {
+  className: "gutter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 68
+    lineNumber: 64
   },
   __self: undefined
-}), __jsx(_components_Entreprises__WEBPACK_IMPORTED_MODULE_10__["default"], {
+})))), __jsx(_components_Competences__WEBPACK_IMPORTED_MODULE_11__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 69
   },
   __self: undefined
-}), __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_12__["default"], {
+}), __jsx(_components_Work__WEBPACK_IMPORTED_MODULE_12__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 70
   },
   __self: undefined
-}), __jsx(_components_Hackathon__WEBPACK_IMPORTED_MODULE_11__["default"], {
+}), __jsx(_components_Entreprises__WEBPACK_IMPORTED_MODULE_13__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 71
+  },
+  __self: undefined
+}), __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_15__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 72
+  },
+  __self: undefined
+}), __jsx(_components_Hackathon__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 73
   },
   __self: undefined
 }));
@@ -1800,7 +1798,7 @@ const Index = () => __jsx("section", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1809,17 +1807,6 @@ const Index = () => __jsx("section", {
 
 module.exports = __webpack_require__(/*! /Users/yaniselmaleh/Desktop/Portfolio/Developpement/PortfolioNextJs/pages/index.js */"./pages/index.js");
 
-
-/***/ }),
-
-/***/ "core-js/stable":
-/*!*********************************!*\
-  !*** external "core-js/stable" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/stable");
 
 /***/ }),
 
