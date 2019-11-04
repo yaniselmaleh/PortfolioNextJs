@@ -31,7 +31,7 @@ export default function Entreprises() {
                         </article>
                     </Fade>
 
-                    <Fade left cascade delay={500}>
+                    {/* <Fade left cascade delay={500}>
                         <article className="col-2">
                             <img src="/AFM-TELETHON.png" alt=""/>
                         </article>
@@ -41,7 +41,7 @@ export default function Entreprises() {
                         <article className="col-2">
                             <img src="c17.png" alt=""/>
                         </article>
-                    </Fade>
+                    </Fade> */}
 
                     <Fade left cascade delay={1000}>
                         <article className="col-2">

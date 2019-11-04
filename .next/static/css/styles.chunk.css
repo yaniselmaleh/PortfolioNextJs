@@ -377,7 +377,19 @@ img {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #FF003A; }
+  background: #FF003A;
+  margin-left: auto;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px; }
+
+.bm-burger-bars:nth-child(2) {
+  width: 20px; }
+
+.bm-burger-bars:last-child {
+  width: 10px; }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
@@ -393,9 +405,9 @@ img {
   background: #FF003A; }
 
 /*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-  */
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
@@ -431,7 +443,15 @@ img {
   text-align: left;
   font-weight: normal;
   letter-spacing: 1.02px;
-  padding-top: 10%; }
+  margin-top: 10%;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s; }
+
+.menu-item:hover {
+  color: #FF003A; }
 
 #competences {
   padding: 6.66667% 0%;

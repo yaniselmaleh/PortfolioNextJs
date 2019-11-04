@@ -1,3 +1,4 @@
+import 'core-js/stable'
 import 'react-app-polyfill/ie11'
 import 'react-app-polyfill/ie9'
 import 'react-app-polyfill/stable'
@@ -25,10 +26,10 @@ import Jump from 'react-reveal/Jump'
 const Index = () => (
 
     <section>
+      <React.Fragment>
+        <MenuBurger/>
+      </React.Fragment>
 
-<React.Fragment>
-    <MenuBurger/>
-  </React.Fragment>
 
       <section id="home">
         <div className="flex-center">
@@ -72,10 +73,11 @@ const Index = () => (
       <Portfolio/>
       <Hackathon/>
 
-      {/* <section id="portfolio">
-          <Portfolio/>
-      </section> */}
-      
+      {/*
+        <section id="portfolio">
+            <Portfolio/>
+        </section> 
+      */}
 
     </section>
   );

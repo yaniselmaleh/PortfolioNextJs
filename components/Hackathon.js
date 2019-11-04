@@ -1,5 +1,6 @@
 import Fade from 'react-reveal/Fade'
 import '../sass/components/_entreprises.scss'
+import Testloader from './loader/Testloader'
 
 
 export default function Hackathon() {
@@ -51,6 +52,8 @@ export default function Hackathon() {
                         </article>
                     </Fade> */}
                 </section>
+
+                <Testloader/>
             </div>
       </section>
     );

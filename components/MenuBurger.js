@@ -14,9 +14,12 @@ class MenuBurger extends Component{
     render(){
         return(
             <Menu right>
-                <a className="menu-item" href="/" title="lorem">Home</a>
-                <a className="menu-item" href="/about" title="lorem">About</a>
-                <a className="menu-item" href="/contact" title="lorem">Contact</a>
+                <a className="menu-item" href="/" title="lorem">Accueil</a>
+                <a className="menu-item" href="/about" title="lorem">Compétences</a>
+                <a className="menu-item" href="/contact" title="lorem">Freelance</a>
+                <a className="menu-item" href="/contact" title="lorem">Projets</a>
+                <a className="menu-item" href="/contact" title="lorem">Linkedin</a>
+                <a className="menu-item" href="/contact" title="lorem">Github</a>
             </Menu>
         )
     }
