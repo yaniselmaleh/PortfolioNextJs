@@ -7,15 +7,15 @@ class Portfolio extends Component {
     return (
         <section id="portfolio">
 
-                    <p>UX/UI - DEV - PWA</p>
+                    <p>- UX/UI - DEV - PWA -</p>
                     <h2>Derniers projets</h2>
 
                     <div id="contain">
             <StackGrid
-            columnWidth={250}
-            gutterWidth={15}
-            gutterHeight={15}
-            itemComponent="section"
+                columnWidth={250}
+                gutterWidth={15}
+                gutterHeight={15}
+                itemComponent="section"
             >
 
                     <article key="key1">

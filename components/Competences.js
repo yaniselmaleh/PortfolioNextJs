@@ -1,12 +1,11 @@
 import Fade from 'react-reveal/Fade'
 import '../sass/components/_competences.scss'
 
-
 export default function Test() {
     return (
         <section id="competences">
             <div className="container">
-                <Fade left>
+                <Fade top delay={500}>
                     <p>- EXPERTISE -</p>
                     <h2>Compétences</h2>
                 </Fade>

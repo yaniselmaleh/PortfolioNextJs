@@ -16,7 +16,9 @@ import Competences from '../components/Competences'
 import Work from '../components/Work'
 import Entreprise from '../components/Entreprises'
 import Hackathon from '../components/Hackathon'
+import Recommendation from '../components/Recommendation'
 import Portfolio from '../components/Portfolio'
+import Contact from '../components/Contact'
 
 import Pulse from 'react-reveal/Pulse'
 import Jump from 'react-reveal/Jump'
@@ -72,12 +74,17 @@ const Index = () => (
       <Entreprise/>
       <Portfolio/>
       <Hackathon/>
+      <Recommendation/>
 
       {/*
         <section id="portfolio">
             <Portfolio/>
         </section> 
       */}
+
+      <Contact/>
+
+
 
     </section>
   );

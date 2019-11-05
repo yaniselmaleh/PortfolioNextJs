@@ -1,0 +1,37 @@
+@import "../helpers/_variables.scss";
+
+#contact{
+    height: 100vh;
+    background-color: $white;
+
+    h2{
+        margin-top: 7vh;
+        font-size: $titre;
+        color: $black;
+        font-family: $font-titre;
+        text-align: center;
+        width: 100%;
+    
+        span{
+            color: $red;
+        }
+    }
+    
+    p{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: $big-titre;
+        font-family: $font-titre;
+        color: $gutter2;
+        z-index: -1;
+    }
+
+    .gutter{
+        background-color: $gutter2;
+    }
+}

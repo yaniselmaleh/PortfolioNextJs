@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from 'react';\nimport '../sass/components/_reset.scss';\nimport Test2 from \"../components/Test2\";\n\nclass Test extends Component {\n  render() {\n    return __jsx(Test2, null);\n  }\n\n}\n\nexport default Test;","map":null,"metadata":{},"sourceType":"module"}

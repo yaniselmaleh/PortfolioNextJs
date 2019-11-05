@@ -448,7 +448,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   -webkit-transition: .5s;
   -moz-transition: .5s;
   -ms-transition: .5s;
-  -o-transition: .5s; }
+  -o-transition: .5s;
+  cursor: pointer !important; }
+
+.menu-item > .active {
+  border-bottom: 2px solid green; }
 
 .menu-item:hover {
   color: #FF003A; }
@@ -510,7 +514,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 #work {
   padding: 6.66667% 0%;
   position: relative;
-  z-index: 0;
+  z-index: 1;
   background-color: #23252A; }
   #work h2 {
     font-size: 3vw;
@@ -536,6 +540,23 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-top: 5vh; }
     #work .flex section:nth-child(2n) {
       margin-top: 3vh; }
+
+.line, .line-top, .line-bot {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  z-index: 99 !important;
+  background-color: #FF003A; }
+
+.line-top {
+  top: -25px;
+  width: 5px;
+  height: 50px; }
+
+.line-bot {
+  bottom: -25px;
+  width: 5px;
+  height: 50px; }
 
 #competences, #hackathon, #entreprises {
   padding: 6.66667% 0%;
@@ -599,6 +620,33 @@ Note: Beware of modifying this element as it can break the animations - you shou
     box-shadow: none; }
     #hackathon section article {
       padding: 0% !important; }
+
+#contact {
+  height: 100vh;
+  background-color: #ffffff; }
+  #contact h2 {
+    margin-top: 7vh;
+    font-size: 3vw;
+    color: #23252A;
+    font-family: "Gotham-bold";
+    text-align: center;
+    width: 100%; }
+    #contact h2 span {
+      color: #FF003A; }
+  #contact p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15vw;
+    font-family: "Gotham-bold";
+    color: #F0F2F7;
+    z-index: -1; }
+  #contact .gutter {
+    background-color: #F0F2F7; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

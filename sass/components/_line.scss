@@ -1,0 +1,23 @@
+@import "../helpers/_variables.scss";
+
+.line{
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    z-index: 99!important;
+    background-color: $red;
+}
+
+.line-top{
+    @extend .line;
+    top: -25px;
+    width: 5px;
+    height: 50px;
+}
+
+.line-bot{
+    @extend .line;
+    bottom: -25px;
+    width: 5px;
+    height: 50px;
+}
