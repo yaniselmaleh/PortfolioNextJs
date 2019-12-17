@@ -1,0 +1,88 @@
+@import "../helpers/_variables.scss";
+
+#projettest{
+    h2{
+        font-size: $titre;
+        color: white;
+        font-family: $font-titre;
+        text-align: left;
+        font-weight: 300;
+
+        span{
+            color: $red;
+        }
+    }
+
+    p:first-child{
+        font-size: $sous-titre;  
+        color: $labeurc;
+        font-family: $labeur;
+        text-align: left;
+        font-weight: normal;
+        letter-spacing: 1.02px;
+        margin-top: 30vh;
+            display: block;
+    }
+
+    hr{
+        height: 4px;
+        width: 3%;
+        background-color: $red;
+        border: none;
+        margin-top: 2vh;
+    }
+
+    article{
+        background-color: $black;
+        width: 55%;
+        display: block;
+        float: left;
+        height: 100vh;
+        padding-left: 5%;
+
+        #lorem{
+            font-size: $sous-titre;  
+            color: white;
+            font-family: $labeur;
+            text-align: left;
+            font-weight: normal;
+            letter-spacing: 1.02px;
+            width: 70%;
+            margin-top: 10vh;
+        }
+
+        a{
+            margin-top: 5vh;
+            font-family: $font-titre;
+            font-size: $sous-titre;  
+            padding: 2% 0%;
+            display: block;
+            box-shadow: 0 3px 6px 0 $red;
+            background-color: $red;
+            color: $white;
+            width: 30%;
+            text-align: center;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+
+    aside{
+        width: 45%;
+        display: block;
+        float: left;
+        background-color: white;
+        height: 100vh;
+
+        img{
+            position: relative;
+            top: 5%;
+            right: 55%;
+            max-width: 150%!important;
+        }
+    }
+
+}

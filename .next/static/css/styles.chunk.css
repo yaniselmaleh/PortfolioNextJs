@@ -449,7 +449,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   -moz-transition: .5s;
   -ms-transition: .5s;
   -o-transition: .5s;
-  cursor: pointer !important; }
+  cursor: pointer !important;
+  outline: none; }
 
 .menu-item > .active {
   border-bottom: 2px solid green; }

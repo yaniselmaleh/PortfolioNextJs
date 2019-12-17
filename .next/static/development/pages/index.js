@@ -57020,7 +57020,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fyaniselmaleh%2FDesktop%2FPortfolio%2FDeveloppement%2FPortfolioNextJs%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************************************/
@@ -57043,5 +57043,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport '../sass/components/_entreprises.scss';\nexport default function Redommendation() {\n  return __jsx(\"section\", {\n    style: {\n      backgroundColor: \"#2f3135\",\n      height: \"50vh\"\n    }\n  });\n}","map":null,"metadata":{},"sourceType":"module"}
