@@ -266,21 +266,28 @@
       "static/EdT5D9K_Z_2rDaydNsx67/pages/projet.js": 7,
       "static/EdT5D9K_Z_2rDaydNsx67/pages/test.js": 8,
       "static/EdT5D9K_Z_2rDaydNsx67/pages/test2.js": 9,
-      "static/runtime/main.js": 10
+      "static/runtime/main.js": 10,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/_app.js": 11,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/_error.js": 12,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/about.js": 13,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/index.js": 14,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/projet.js": 15,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/test.js": 16,
+      "static/ZkAvxmwR3z9UG1ZoxQGu2/pages/test2.js": 17
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       10,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      2
     ]
   }
 }
