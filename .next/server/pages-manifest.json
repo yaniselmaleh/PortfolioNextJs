@@ -1,1 +1,6 @@
-{"/_app":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/_app.js","/_document":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/_document.js","/_error":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/_error.js","/about":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/about.html","/index":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/index.html","/projet":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/projet.html","/test":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/test.html","/test2":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/test2.html","/":"static/ZkAvxmwR3z9UG1ZoxQGu2/pages/index.html"}
+{
+  "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.js"
+}
