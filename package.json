@@ -23,7 +23,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "core-js": "^3.6.5",
-    "next": "^9.5.3",
+    "next": "^9.5.5",
     "next-fonts": "^0.19.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
